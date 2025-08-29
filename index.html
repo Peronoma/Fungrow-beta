@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fungrow – Teen Growth & Skill Development Platform</title>
+  <meta name="description" content="Fungrow helps teens build real-world skills through guided micro-learning, habits and simple progress tracking.">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://example.com/main.html">
+  <meta property="og:title" content="Fungrow – Teen Skill Development">
+  <meta property="og:description" content="Guided skill paths and habit tracking for teens.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.com/main.html">
+  <!-- No og:image (no stock assets) -->
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2048%2048'%3E%3Ccircle%20cx='24'%20cy='24'%20r='24'%20fill='%232fa578'/%3E%3Cpath%20d='M30.8%2014.2c-5.9%201-9.6%204.9-11.2%209.3-1%202.9-.9%205.7-.6%207.2.1.6.8.9%201.3.6%205.9-3.4%209.7-8.3%2011.1-13.9.2-.9-.6-1.7-1.4-1.5Z'%20fill='%23fff'/%3E%3Cpath%20d='M17.5%2019.4c-2.4%201.9-4.1%204.9-4.4%208.2-.1.9.9%201.5%201.6%201%202.4-1.6%204.2-4.2%204.9-7%20.3-1.1-1-1.9-2.1-1.2Z'%20fill='%23d8ffe9'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Inline helpers for avatar placeholders */
+    .avatar {
+      width:56px; height:56px; border-radius:50%;
+      display:grid; place-items:center;
+      font:600 .8rem/1 'Montserrat',sans-serif;
+      background:linear-gradient(135deg,#1f4338,#2fa578);
+      color:#fff;
+      letter-spacing:.5px;
+      box-shadow:0 0 0 2px rgba(255,255,255,.08);
+    }
+    .card.has-img .card-img-placeholder {
+      width:100%; aspect-ratio:16/10;
+      display:grid; place-items:center;
+      border-radius:18px 18px 0 0;
+      background:repeating-linear-gradient(45deg,#1d332e,#1d332e 12px,#23433a 12px,#23433a 24px);
+      color:#7ddbb3;
+      font:600 .7rem/1 'Montserrat',sans-serif;
+      letter-spacing:.15em;
+      text-transform:uppercase;
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "name":"Fungrow",
+    "url":"https://example.com/",
+    "logo":"https://example.com/assets/logo.svg",
+    "description":"Teen skill development and growth tracking platform."
+  }
+  </script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="logo" href="main.html" aria-label="Fungrow Home">
+        <!-- Inline SVG logo (no external file) -->
+        <svg width="54" height="54" viewBox="0 0 48 48" aria-hidden="true">
+          <circle cx="24" cy="24" r="24" fill="#2fa578"/>
+          <path d="M30.8 14.2c-5.9 1-9.6 4.9-11.2 9.3-1 2.9-.9 5.7-.6 7.2.1.6.8.9 1.3.6 5.9-3.4 9.7-8.3 11.1-13.9.2-.9-.6-1.7-1.4-1.5Z" fill="#fff"/>
+          <path d="M17.5 19.4c-2.4 1.9-4.1 4.9-4.4 8.2-.1.9.9 1.5 1.6 1 2.4-1.6 4.2-4.2 4.9-7 .3-1.1-1-1.9-2.1-1.2Z" fill="#d8ffe9"/>
+        </svg>
+        <span>Fungrow</span>
+      </a>
+      <nav aria-label="Main">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="teen.html">Teen Program</a></li>
+          <li><a href="sign.html" class="btn btn-outline btn-sm">Sign In</a></li>
+        </ul>
+      </nav>
+      <button class="mobile-toggle" id="navBtn" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav-drawer" id="drawer" aria-hidden="true">
+      <a href="index.html" class="active">Home</a>
+      <a href="teen.html">Teen Program</a>
+      <a href="sign.html" class="btn btn-outline btn-sm">Sign In</a>
+    </div>
+    <div class="nav-overlay" id="overlay"></div>
+  </header>
+  <!-- ...existing code... -->
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <h1>Earning with learning</h1>
+            <p class="lead" style="margin-top:.6rem">Perfect for teens (or early learners) who want to start earning while learning—apply new skills to bite‑sized projects, build a lightweight portfolio and unlock small reward opportunities as progress compounds.</p>
+          <div class="hero-actions">
+            <a href="teen.html" class="btn btn-accent btn-lg">Explore Projects</a>
+            <a href="sign.html" class="btn-outline btn-lg">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ...existing code... -->
+
+    <!-- Value Points -->
+    <section class="section section-tight">
+      <div class="container">
+        <h2 class="section-title text-center">Why It Works</h2>
+        <div class="card-grid" style="margin-top:1.6rem">
+            <article class="card">
+            <h3>Earn-As-You-Learn Paths</h3>
+            <p>Follow guided skill tracks that plug straight into small real online project briefs.</p>
+            </article>
+            <article class="card">
+            <h3>Micro Paid Tasks</h3>
+            <p>Complete bite‑sized skill challenges that can unlock starter payouts or credits.</p>
+            </article>
+            <article class="card">
+            <h3>Portfolio → Opportunities</h3>
+            <p>Each finished mini project adds proof of skill that attracts the next earning chance.</p>
+            </article>
+        </div>
+      </div>
+    </section>
+    <!-- ...existing code... -->
+
+    <!-- Teen Program Teaser -->
+    <section class="section" style="background:var(--clr-bg-800)">
+      <div class="container split">
+      <div>
+        <h2>Earn While You Learn</h2>
+        <p class="lead">Turn weekly study sprints into small, confidence‑building earning moments.</p>
+        <ul style="list-style:none; padding:0; margin:1rem 0 1.4rem; font-size:.9rem">
+        <li>💰 Micro gigs tied to finished lessons</li>
+        <li>🎯 Skill streaks unlock payout boosts</li>
+        <li>📊 Simple progress → eligibility meter</li>
+        <li>🧪 Safe starter tasks before real clients</li>
+        <li>🏗 Portfolio auto-builds as you submit</li>
+        </ul>
+        <a href="teen.html" class="btn btn-accent btn-sm">See How It Works</a>
+      </div>
+      <div class="card has-img" style="max-width:420px">
+        <div class="card-img-placeholder">EARN MODE</div>
+        <div style="padding:1rem 1rem .4rem">
+        <h3>Study → Apply → Earn</h3>
+        <p style="margin:0 0 .6rem">Complete a micro module, ship a tiny task, collect feedback and unlock the next reward tier.</p>
+            <a href="sign.html" class="read-more">Join Now →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ...existing code... -->
+    <!-- Testimonials -->
+    <section class="section section-tight">
+      <div class="container">
+      <h2 class="section-title text-center">Student Earning Wins</h2>
+      <div class="testimonials-grid" style="margin-top:1.3rem">
+        <div class="testimonial">
+        <p>I turned weekly skill sprints into my first online payouts—small tasks, real confidence.</p>
+        <div class="review-author">
+          <div class="avatar" aria-hidden="true">A</div>
+          <div><strong>Arya</strong><br><small class="text-muted">Teen Learner</small></div>
+        </div>
+        </div>
+        <div class="testimonial">
+        <p>Each mini project added proof of skill that unlocked more paid micro gigs.</p>
+        <div class="review-author">
+          <div class="avatar" aria-hidden="true">K</div>
+          <div><strong>Kai</strong><br><small class="text-muted">Early Earner</small></div>
+        </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- ...existing code... -->
+
+    <!-- CTA -->
+    <section class="section">
+      <div class="container newsletter">
+      <h2>Start Earning Early</h2>
+      <p class="lead" style="color:#d7e6e2; max-width:520px">Create a free account, finish your first micro lesson and unlock a starter earning task.</p>
+      <div style="margin-top:1rem; display:flex; gap:.8rem; flex-wrap:wrap">
+        <a href="sign.html" class="btn btn-lg btn-pill">Create Account</a>
+        <a href="teen.html" class="btn-outline btn-lg btn-pill">Preview Track</a>
+      </div>
+      </div>
+    </section>
+    <!-- ...existing code... -->
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h3>Fungrow</h3>
+        <p style="font-size:.75rem; max-width:230px">Lean skill growth platform for teens.</p>
+      </div>
+      <div class="footer-col">
+        <h3>Links</h3>
+        <ul class="footer-links">
+          <li><a href="teen.html">Teen Program</a></li>
+          <li><a href="sign.html">Sign In</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Stay Updated</h3>
+        <form class="inline-form" onsubmit="event.preventDefault();">
+          <input type="email" placeholder="Email" aria-label="Email">
+          <button class="btn btn-accent btn-sm" type="submit">OK</button>
+        </form>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      © <span id="year"></span> Fungrow
+    </div>
+  </footer>
+  <!-- ...existing code... -->
+
+  <script>
+    // ...existing code...
+    const btn = document.getElementById('navBtn');
+    const drawer = document.getElementById('drawer');
+    const overlay = document.getElementById('overlay');
+    function toggleNav(){
+      const open = drawer.classList.toggle('open');
+      overlay.classList.toggle('show', open);
+      btn.classList.toggle('active', open);
+      btn.setAttribute('aria-expanded', open);
+      drawer.setAttribute('aria-hidden', !open);
+      document.body.style.overflow = open ? 'hidden' : '';
+    }
+    btn?.addEventListener('click', toggleNav);
+    overlay?.addEventListener('click', toggleNav);
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const header = document.querySelector('.site-header');
+    const onScroll = () => header.classList.toggle('scrolled', window.scrollY > 10);
+    window.addEventListener('scroll', onScroll); onScroll();
+    // ...existing code...
+  </script>
+</body>
+</html>
